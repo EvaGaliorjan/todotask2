@@ -1,0 +1,44 @@
+body {
+    background-color: aliceblue;
+    height: max-content;
+}
+
+.title {
+    font-size: 44px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 2px 2px 3px rgb(253, 73, 73);
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 10px auto;
+    background: rgb(19, 60, 173);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+}
+
+button:hover {
+    background: #202952;
+    border-bottom-color: #111;
+}
+
+.todos {
+    font-size: 35px;
+    color: rgb(61, 61, 61);
+}
+
+.todos-card {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+}
